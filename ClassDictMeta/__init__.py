@@ -1,6 +1,8 @@
 import typing
 from collections import OrderedDict
+from warnings import warn
 
+warn("We have moved from M$ GitHub to https://codeberg.org/KOLANICH-libs/ClassDictMeta.py, read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
 
 class ClassDictMeta(type):
 	cls = dict
